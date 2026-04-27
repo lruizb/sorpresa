@@ -1762,9 +1762,9 @@ function redimensionarCanvas() {
   canvas.height = window.innerHeight;
   
   joystick.centerX = canvas.width * 0.15;
-  joystick.centerY = canvas.height * 0.85;
+  joystick.centerY = canvas.height * 0.75;
   jumpButton.x = canvas.width * 0.85;
-  jumpButton.y = canvas.height * 0.85;
+  jumpButton.y = canvas.height * 0.75;
   
   groundY = canvas.height - 100;
 }
